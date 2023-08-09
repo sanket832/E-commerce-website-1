@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .footer {
+        margin-top: 40px;
+      background-color: #4e4a4a;
+      padding: 20px 0;
+      color: white;
+    }
+
+    .footer-row {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+
+    .footer-category {
+      padding: 5px;
+    }
+
+    .footer-category ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .footer-links ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .footer-category h4 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .footer-link {
+      padding: 5px;
+    }
+
+    .footer-divider {
+      border-top: 1px solid #ccc;
+      margin: 20px 0;
+    }
+
+    .copyright {
+      text-align: center;
+      font-size: 12px;
+      color: white;
+    }
+
+    /* Custom styles for women links */
+    .women-links {
+      color: #ff4081; /* Pink color */
+    }
+
+    /* Custom styles for men links */
+    .men-links {
+      color: #007bff; /* Blue color */
+    }
+
+    @media (max-width: 768px) {
+      .footer-row {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-row">
+        <div class="footer-category">
+          <h4>Women</h4>
+          <ul class="women-links">
+            <li><a href="pants.html">Pants</a></li>
+            <li><a href="dress.html">Dress</a></li>
+            <li><a href="skirts.html">Skirts</a></li>
+          </ul>
+        </div>
+        <div class="footer-category">
+          <h4>Men</h4>
+          <ul class="men-links">
+            <li><a href="menpants.html">Pants</a></li>
+            <li><a href="hoodies.html">Hoodies</a></li>
+            <li><a href="shirts.html">Shirts</a></li>
+          </ul>
+        </div>
+        <div class="footer-category">
+          <h4>Kids</h4>
+        </div>
+        <div class="footer-links">
+          <h4>Links</h4>
+          <ul>
+            <li><a href="practice.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="login.html">Login</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-divider"></div>
+      <div class="copyright">
+        &copy; 2023 BookStore. All rights reserved.
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+
+

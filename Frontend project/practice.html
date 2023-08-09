@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E-commerce</title>
+  <!-- Including Bootstrap’s CSS  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+
+
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+
+  <!-- Including Font-Awesome Library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="./css/practice.css" />
+</head>
+
+<body>
+  <div id="header-div"></div>
+  <!-- First Part Of the Home Page -->
+  <section class="cover-section">
+    <div class="cover-image">
+      <div class="cover-content">
+        <div class="a1">
+          <img src="https://png.pngtree.com/template/20210709/ourmid/pngtree-shopping-logo-design-image_545854.jpg"
+            alt="Logo" class="logo" />
+        </div>
+        <div class="a2">
+          <p class="">Shop Swift, Shop Smart</p>
+        </div>
+
+        <button type="button" class="btn btn-primary s">Click Here</button>
+      </div>
+    </div>
+  </section>
+
+  <div class="container v">
+    <div class="row">
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex z">
+        <img
+          src="https://img.freepik.com/premium-vector/male-female-employee-analyze-people-online-profile-ecommerce-concept_90661-381.jpg"
+          width="400" class="img-fluid" height="400" alt="" />
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex text">
+        <div class="about-text">
+          <h2>We Provide Best Quality <br />Service Ever</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab culpa
+            nostrum laborum aperiam tempore natus sit numquam quasi nulla
+            possimus sapiente, quo maiores. Expedita ab cupiditate vitae
+            labore mollitia eum? Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Nihil, perferendis aperiam doloribus, veritatis
+            recusandae totam eit.
+          </p>
+          <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br /><br /><br />
+  <!-- Second Part Of the Home Page -->
+  <section id="largeScreenSlider"
+    class="carousel featured container p-0 slide large-screen-slider d-none d-md-none d-lg-block jus"
+    data-ride="carousel">
+    <h2 class="text-center text-primary">Featured Product</h2>
+    <div id="featured-slider" class="carousel slide justify-content-center" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="card" style="width: 100%; border-radius: 10px">
+                <div class="card-body">
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/a/tr:w-960,/4a0e31fUSUSSHTOE34_White_1.jpg?rnd=20200526195200"
+                    alt="Dress" class="card-img-top" />
+                  <h5 class="card-title">DILLINGER</h5>
+                  <div class="price1">
+                    <h5>$ 12.00</h5>
+                  </div>
+                  <div class="icons">
+                    <a href="#" class="btn btn-danger"><i class="fas fa-trash-alt"></i>
+                    </a>
+                    <a href="#" class="btn btn-info"><i class="fas fa-heart"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="card" style="width: 100%; border-radius: 10px">
+                <div class="card-body">
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/s/tr:w-960,/fsaw16017gmlorg_1_14fe730d.jpg?rnd=20200526195200"
+                    alt="Dress" class="card-img-top" />
+                  <h5 class="card-title">Campus Sutra</h5>
+                  <div class="price1">
+                    <h5>$ 10.00</h5>
+                  </div>
+                  <div class="icons">
+                    <a href="#" class="btn btn-danger"><i class="fas fa-trash-alt"></i>
+                    </a>
+                    <a href="#" class="btn btn-info"><i class="fas fa-heart"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="card" style="width: 100%; border-radius: 10px">
+                <div class="card-body">
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/tr:w-960,/3e09a6cSY_SK_2874_FZ_1.jpg?rnd=20200526195200"
+                    alt="Dress" class="card-img-top" />
+                  <h5 class="card-title">Louis Philippe</h5>
+                  <div class="price1">
+                    <h5>$ 8.00</h5>
+                  </div>
+                  <div class="icons">
+                    <a href="#" class="btn btn-danger"><i class="fas fa-trash-alt"></i>
+                    </a>
+                    <a href="#" class="btn btn-info"><i class="fas fa-heart"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="card" style="width: 100%; border-radius: 10px">
+                <div class="card-body">
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/7/tr:w-960,/7705b84TBH-GRUT-BL_3.jpg?rnd=20200526195200"
+                    alt="Dress" class="card-img-top" />
+                  <h5 class="card-title">RIGO</h5>
+                  <div class="price1">
+                    <h5>$ 9.00</h5>
+                  </div>
+                  <div class="icons">
+                    <a href="#" class="btn btn-danger"><i class="fas fa-trash-alt"></i>
+                    </a>
+                    <a href="#" class="btn btn-info"><i class="fas fa-heart"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- women slider -->
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="card" style="width: 100%; border-radius: 10px">
+                <div class="card-body">
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/9/tr:w-960,/79b4e45NF_STYLU00000430_1.jpg?rnd=20200526195200"
+                    alt="Dress" class="card-img-top" />
+                  <h5 class="card-title">Gillori</h5>
+                  <div class="price1">
+                    <h5>$ 10.00</h5>
+                  </div>
+                  <div class="icons">
+                    <a href="#" class="btn btn-danger"><i class="fas fa-trash-alt"></i>
+                    </a>
+                    <a href="#" class="btn btn-info"><i class="fas fa-heart"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="card" style="width: 100%; border-radius: 10px">
+                <div class="card-body">
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/4/tr:w-960,/943e696KPDCLOUDY_1.jpg?rnd=20200526195200"
+                    alt="Dress" class="card-img-top" />
+                  <h5 class="card-title">Autumnlane</h5>
+                  <div class="price1">
+                    <h5>$ 20.00</h5>
+                  </div>
+                  <div class="icons">
+                    <a href="#" class="btn btn-danger"><i class="fas fa-trash-alt"></i>
+                    </a>
+                    <a href="#" class="btn btn-info"><i class="fas fa-heart"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="card" style="width: 100%; border-radius: 10px">
+                <div class="card-body">
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/c/tr:w-960,/7cf3321TD-DR1087_1.jpg?rnd=20200526195200"
+                    alt="Dress" class="card-img-top" />
+                  <h5 class="card-title">Kasya</h5>
+                  <div class="price1">
+                    <h5>$ 9.00</h5>
+                  </div>
+                  <div class="icons">
+                    <a href="#" class="btn btn-danger"><i class="fas fa-trash-alt"></i>
+                    </a>
+                    <a href="#" class="btn btn-info"><i class="fas fa-heart"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="card" style="width: 100%; border-radius: 10px">
+                <div class="card-body">
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/8/tr:w-960,/c80224fKSLJMPS4019_1.jpg?rnd=20200526195200"
+                    alt="Dress" class="card-img-top" />
+                  <h5 class="card-title">ANVI Be Yourself</h5>
+                  <div class="price1">
+                    <h5>$ 5.00</h5>
+                  </div>
+                  <div class="icons">
+                    <a href="#" class="btn btn-danger"><i class="fas fa-trash-alt"></i>
+                    </a>
+                    <a href="#" class="btn btn-info"><i class="fas fa-heart"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- kids carousel -->
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="card" style="width: 100%; border-radius: 10px">
+                <div class="card-body">
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/p/d/tr:w-960,/pd-41-1.jpg?rnd=20200526195200"
+                    alt="Dress" class="card-img-top" />
+                  <h5 class="card-title">TIBER TABER</h5>
+                  <div class="price1">
+                    <h5>$ 10.00</h5>
+                  </div>
+                  <div class="icons">
+                    <a href="#" class="btn btn-danger"><i class="fas fa-trash-alt"></i>
+                    </a>
+                    <a href="#" class="btn btn-info"><i class="fas fa-heart"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="card" style="width: 100%; border-radius: 10px">
+                <div class="card-body">
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/7/tr:w-960,/e7d05c9Kali_Kids-Black_1.jpg?rnd=20200526195200"
+                    alt="Dress" class="card-img-top" />
+                  <h5 class="card-title">PSPeaches</h5>
+                  <div class="price1">
+                    <h5>$ 20.00</h5>
+                  </div>
+                  <div class="icons">
+                    <a href="#" class="btn btn-danger"><i class="fas fa-trash-alt"></i>
+                    </a>
+                    <a href="#" class="btn btn-info"><i class="fas fa-heart"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="card" style="width: 100%; border-radius: 10px">
+                <div class="card-body">
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/5/tr:w-960,/1532597B-SS-MICKEY-1106_1.jpg?rnd=20200526195200"
+                    alt="Dress" class="card-img-top" />
+                  <h5 class="card-title">Stylo Bug</h5>
+                  <div class="price1">
+                    <h5>$ 9.00</h5>
+                  </div>
+                  <div class="icons">
+                    <a href="#" class="btn btn-danger"><i class="fas fa-trash-alt"></i>
+                    </a>
+                    <a href="#" class="btn btn-info"><i class="fas fa-heart"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="card" style="width: 100%; border-radius: 10px">
+                <div class="card-body">
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/6/tr:w-960,/f664e2f900021_1.jpg?rnd=20200526195200"
+                    alt="Dress" class="card-img-top" />
+                  <h5 class="card-title">ANTHRILO</h5>
+                  <div class="price1">
+                    <h5>$ 5.00</h5>
+                  </div>
+                  <div class="icons">
+                    <a href="#" class="btn btn-danger"><i class="fas fa-trash-alt"></i>
+                    </a>
+                    <a href="#" class="btn btn-info"><i class="fas fa-heart"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#featured-slider" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+
+      <a class="carousel-control-next" href="#featured-slider" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+  <!-- For Medium Screen Display -->
+  <section id="medium-screen-slider"
+    class="carousel featured slide container p-0 medium-screen-slider d-none d-md-block d-lg-none" data-ride="carousel">
+    <h2 class="text-center text-primary">Featured Products</h2>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="container two-item-slide">
+          <div class="row flex-nowrap border">
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card" style="width: 100%; border-radius: 10px">
+                <div class="card-body">
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/a/tr:w-960,/4a0e31fUSUSSHTOE34_White_1.jpg?rnd=20200526195200"
+                    alt="Dress" class="card-img-top" />
+                  <h5 class="card-title">DILLINGER</h5>
+                  <div class="price1">
+                    <h5>$ 12.00</h5>
+                  </div>
+                  <div class="icons">
+                    <a href="#" class="btn btn-danger"><i class="fas fa-trash-alt"></i>
+                    </a>
+                    <a href="#" class="btn btn-info"><i class="fas fa-heart"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card" style="width: 100%; border-radius: 10px">
+                <div class="card-body">
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/s/tr:w-960,/fsaw16017gmlorg_1_14fe730d.jpg?rnd=20200526195200"
+                    alt="Dress" class="card-img-top" />
+                  <h5 class="card-title">Campus Sutra</h5>
+                  <div class="price1">
+                    <h5>$ 10.00</h5>
+                  </div>
+                  <div class="icons">
+                    <a href="#" class="btn btn-danger"><i class="fas fa-trash-alt"></i>
+                    </a>
+                    <a href="#" class="btn btn-info"><i class="fas fa-heart"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="container two-item-slide">
+          <div class="row flex-nowrap border">
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card" style="width: 100%; border-radius: 10px">
+                <div class="card-body">
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/tr:w-960,/3e09a6cSY_SK_2874_FZ_1.jpg?rnd=20200526195200"
+                    alt="Dress" class="card-img-top" />
+                  <h5 class="card-title">Louis Philippe</h5>
+                  <div class="price1">
+                    <h5>$ 8.00</h5>
+                  </div>
+                  <div class="icons">
+                    <a href="#" class="btn btn-danger"><i class="fas fa-trash-alt"></i>
+                    </a>
+                    <a href="#" class="btn btn-info"><i class="fas fa-heart"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card" style="width: 100%; border-radius: 10px">
+                <div class="card-body">
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/a/tr:w-960,/4a0e31fUSUSSHTOE34_White_1.jpg?rnd=20200526195200"
+                    alt="Dress" class="card-img-top" />
+                  <h5 class="card-title">RIGO</h5>
+                  <div class="price1">
+                    <h5>$ 9.00</h5>
+                  </div>
+                  <div class="icons">
+                    <a href="#" class="btn btn-danger"><i class="fas fa-trash-alt"></i>
+                    </a>
+                    <a href="#" class="btn btn-info"><i class="fas fa-heart"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- women slider -->
+      <div class="carousel-item">
+        <div class="container two-item-slide">
+          <div class="row flex-nowrap border">
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card" style="width: 100%; border-radius: 10px">
+                <div class="card-body">
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/9/tr:w-960,/79b4e45NF_STYLU00000430_1.jpg?rnd=20200526195200"
+                    alt="Dress" class="card-img-top" />
+                  <h5 class="card-title">Gillori</h5>
+                  <div class="price1">
+                    <h5>$ 10.00</h5>
+                  </div>
+                  <div class="icons">
+                    <a href="#" class="btn btn-danger"><i class="fas fa-trash-alt"></i>
+                    </a>
+                    <a href="#" class="btn btn-info"><i class="fas fa-heart"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card" style="width: 100%; border-radius: 10px">
+                <div class="card-body">
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/4/tr:w-960,/943e696KPDCLOUDY_1.jpg?rnd=20200526195200"
+                    alt="Dress" class="card-img-top" />
+                  <h5 class="card-title">Autumnlane</h5>
+                  <div class="price1">
+                    <h5>$ 20.00</h5>
+                  </div>
+                  <div class="icons">
+                    <a href="#" class="btn btn-danger"><i class="fas fa-trash-alt"></i>
+                    </a>
+                    <a href="#" class="btn btn-info"><i class="fas fa-heart"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="container two-item-slide">
+          <div class="row flex-nowrap border">
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card" style="width: 100%; border-radius: 10px">
+                <div class="card-body">
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/c/tr:w-960,/7cf3321TD-DR1087_1.jpg?rnd=20200526195200"
+                    alt="Dress" class="card-img-top" />
+                  <h5 class="card-title">Kasya</h5>
+                  <div class="price1">
+                    <h5>$ 9.00</h5>
+                  </div>
+                  <div class="icons">
+                    <a href="#" class="btn btn-danger"><i class="fas fa-trash-alt"></i>
+                    </a>
+                    <a href="#" class="btn btn-info"><i class="fas fa-heart"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card" style="width: 100%; border-radius: 10px">
+                <div class="card-body">
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/8/tr:w-960,/c80224fKSLJMPS4019_1.jpg?rnd=20200526195200"
+                    alt="Dress" class="card-img-top" />
+                  <h5 class="card-title">ANVI Be Yourself</h5>
+                  <div class="price1">
+                    <h5>$ 5.00</h5>
+                  </div>
+                  <div class="icons">
+                    <a href="#" class="btn btn-danger"><i class="fas fa-trash-alt"></i>
+                    </a>
+                    <a href="#" class="btn btn-info"><i class="fas fa-heart"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- kids slider -->
+      <div class="carousel-item">
+        <div class="container two-item-slide">
+          <div class="row flex-nowrap border">
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card" style="width: 100%; border-radius: 10px">
+                <div class="card-body">
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/p/d/tr:w-960,/pd-41-1.jpg?rnd=20200526195200"
+                    alt="Dress" class="card-img-top" />
+                  <h5 class="card-title">TIBER TABER</h5>
+                  <div class="price1">
+                    <h5>$ 10.00</h5>
+                  </div>
+                  <div class="icons">
+                    <a href="#" class="btn btn-danger"><i class="fas fa-trash-alt"></i>
+                    </a>
+                    <a href="#" class="btn btn-info"><i class="fas fa-heart"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card" style="width: 100%; border-radius: 10px">
+                <div class="card-body">
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/7/tr:w-960,/e7d05c9Kali_Kids-Black_1.jpg?rnd=20200526195200"
+                    alt="Dress" class="card-img-top" />
+                  <h5 class="card-title">PSPeaches</h5>
+                  <div class="price1">
+                    <h5>$ 20.00</h5>
+                  </div>
+                  <div class="icons">
+                    <a href="#" class="btn btn-danger"><i class="fas fa-trash-alt"></i>
+                    </a>
+                    <a href="#" class="btn btn-info"><i class="fas fa-heart"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="container two-item-slide">
+          <div class="row flex-nowrap border">
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card" style="width: 100%; border-radius: 10px">
+                <div class="card-body">
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/5/tr:w-960,/1532597B-SS-MICKEY-1106_1.jpg?rnd=20200526195200"
+                    alt="Dress" class="card-img-top" />
+                  <h5 class="card-title">Stylo Bug</h5>
+                  <div class="price1">
+                    <h5>$ 9.00</h5>
+                  </div>
+                  <div class="icons">
+                    <a href="#" class="btn btn-danger"><i class="fas fa-trash-alt"></i>
+                    </a>
+                    <a href="#" class="btn btn-info"><i class="fas fa-heart"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card" style="width: 100%; border-radius: 10px">
+                <div class="card-body">
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/6/tr:w-960,/f664e2f900021_1.jpg?rnd=20200526195200"
+                    alt="Dress" class="card-img-top" />
+                  <h5 class="card-title">ANTHRILO</h5>
+                  <div class="price1">
+                    <h5>$ 5.00</h5>
+                  </div>
+                  <div class="icons">
+                    <a href="#" class="btn btn-danger"><i class="fas fa-trash-alt"></i>
+                    </a>
+                    <a href="#" class="btn btn-info"><i class="fas fa-heart"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#medium-screen-slider" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+
+    <a class="carousel-control-next" href="#medium-screen-slider" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </section>
+  <!-- Medium Screen Display Styling Ends Here -->
+  <!-- ======================================================================== -->
+  <!-- Display For Small Screen -->
+  <section id="small-screen-slider"
+    class="carousel container featured slide small-screen-slider p-0 d-block d-md-none d-lg-none" data-ride="carousel">
+    <h2 class="text-primary text-center">Featured products</h2>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="container one-item-slide">
+          <div class="row flex-nowrap border">
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card" style="width: 100%; border-radius: 10px">
+                <div class="card-body">
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/a/tr:w-960,/4a0e31fUSUSSHTOE34_White_1.jpg?rnd=20200526195200"
+                    alt="Dress" class="card-img-top" />
+                  <h5 class="card-title">DILLINGER</h5>
+                  <div class="price1">
+                    <h5>$ 12.00</h5>
+                  </div>
+                  <div class="icons">
+                    <a href="#" class="btn btn-danger"><i class="fas fa-trash-alt"></i>
+                    </a>
+                    <a href="#" class="btn btn-info"><i class="fas fa-heart"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="container one-item-slide">
+          <div class="row flex-nowrap border">
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card" style="width: 100%; border-radius: 10px">
+                  <div class="card-body">
+                    <img
+                      src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/s/tr:w-960,/fsaw16017gmlorg_1_14fe730d.jpg?rnd=20200526195200"
+                      alt="Dress" class="card-img-top" />
+                    <h5 class="card-title">Campus Sutra</h5>
+                    <div class="price1">
+                      <h5>$ 10.00</h5>
+                    </div>
+                    <div class="icons">
+                      <a href="#" class="btn btn-danger"><i class="fas fa-trash-alt"></i>
+                      </a>
+                      <a href="#" class="btn btn-info"><i class="fas fa-heart"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="container one-item-slide">
+          <div class="row flex-nowrap border">
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card" style="width: 100%; border-radius: 10px">
+                <div class="card-body">
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/tr:w-960,/3e09a6cSY_SK_2874_FZ_1.jpg?rnd=20200526195200"
+                    alt="Dress" class="card-img-top" />
+                  <h5 class="card-title">Louis Philippe</h5>
+                  <div class="price1">
+                    <h5>$ 8.00</h5>
+                  </div>
+                  <div class="icons">
+                    <a href="#" class="btn btn-danger"><i class="fas fa-trash-alt"></i>
+                    </a>
+                    <a href="#" class="btn btn-info"><i class="fas fa-heart"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="container one-item-slide">
+          <div class="row flex-nowrap border">
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card" style="width: 100%; border-radius: 10px">
+                <div class="card-body">
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/7/tr:w-960,/7705b84TBH-GRUT-BL_3.jpg?rnd=20200526195200"
+                    alt="Dress" class="card-img-top" />
+                  <h5 class="card-title">RIGO</h5>
+                  <div class="price1">
+                    <h5>$ 9.00</h5>
+                  </div>
+                  <div class="icons">
+                    <a href="#" class="btn btn-danger"><i class="fas fa-trash-alt"></i>
+                    </a>
+                    <a href="#" class="btn btn-info"><i class="fas fa-heart"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- women slider -->
+      <div class="carousel-item">
+        <div class="container one-item-slide">
+          <div class="row flex-nowrap border">
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card" style="width: 100%; border-radius: 10px">
+                <div class="card-body">
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/9/tr:w-960,/79b4e45NF_STYLU00000430_1.jpg?rnd=20200526195200"
+                    alt="Dress" class="card-img-top" />
+                  <h5 class="card-title">Gillori</h5>
+                  <div class="price1">
+                    <h5>$ 10.00</h5>
+                  </div>
+                  <div class="icons">
+                    <a href="#" class="btn btn-danger"><i class="fas fa-trash-alt"></i>
+                    </a>
+                    <a href="#" class="btn btn-info"><i class="fas fa-heart"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="container one-item-slide">
+          <div class="row flex-nowrap border">
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card" style="width: 100%; border-radius: 10px">
+                <div class="card-body">
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/4/tr:w-960,/943e696KPDCLOUDY_1.jpg?rnd=20200526195200"
+                    alt="Dress" class="card-img-top" />
+                  <h5 class="card-title">Autumnlane</h5>
+                  <div class="price1">
+                    <h5>$ 20.00</h5>
+                  </div>
+                  <div class="icons">
+                    <a href="#" class="btn btn-danger"><i class="fas fa-trash-alt"></i>
+                    </a>
+                    <a href="#" class="btn btn-info"><i class="fas fa-heart"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="container one-item-slide">
+          <div class="row flex-nowrap border">
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card" style="width: 100%; border-radius: 10px">
+                <div class="card-body">
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/c/tr:w-960,/7cf3321TD-DR1087_1.jpg?rnd=20200526195200"
+                    alt="Dress" class="card-img-top" />
+                  <h5 class="card-title">Kasya</h5>
+                  <div class="price1">
+                    <h5>$ 9.00</h5>
+                  </div>
+                  <div class="icons">
+                    <a href="#" class="btn btn-danger"><i class="fas fa-trash-alt"></i>
+                    </a>
+                    <a href="#" class="btn btn-info"><i class="fas fa-heart"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="container one-item-slide">
+          <div class="row flex-nowrap border">
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card" style="width: 100%; border-radius: 10px">
+                <div class="card-body">
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/8/tr:w-960,/c80224fKSLJMPS4019_1.jpg?rnd=20200526195200"
+                    alt="Dress" class="card-img-top" />
+                  <h5 class="card-title">ANVI Be Yourself</h5>
+                  <div class="price1">
+                    <h5>$ 5.00</h5>
+                  </div>
+                  <div class="icons">
+                    <a href="#" class="btn btn-danger"><i class="fas fa-trash-alt"></i>
+                    </a>
+                    <a href="#" class="btn btn-info"><i class="fas fa-heart"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- kids slider -->
+      <div class="carousel-item">
+        <div class="container one-item-slide">
+          <div class="row flex-nowrap border">
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card" style="width: 100%; border-radius: 10px">
+                <div class="card-body">
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/p/d/tr:w-960,/pd-41-1.jpg?rnd=20200526195200"
+                    alt="Dress" class="card-img-top" />
+                  <h5 class="card-title">TIBER TABER</h5>
+                  <div class="price1">
+                    <h5>$ 10.00</h5>
+                  </div>
+                  <div class="icons">
+                    <a href="#" class="btn btn-danger"><i class="fas fa-trash-alt"></i>
+                    </a>
+                    <a href="#" class="btn btn-info"><i class="fas fa-heart"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="container one-item-slide">
+          <div class="row flex-nowrap border">
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card" style="width: 100%; border-radius: 10px">
+                <div class="card-body">
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/7/tr:w-960,/e7d05c9Kali_Kids-Black_1.jpg?rnd=20200526195200"
+                    alt="Dress" class="card-img-top" />
+                  <h5 class="card-title">PSPeaches</h5>
+                  <div class="price1">
+                    <h5>$ 20.00</h5>
+                  </div>
+                  <div class="icons">
+                    <a href="#" class="btn btn-danger"><i class="fas fa-trash-alt"></i>
+                    </a>
+                    <a href="#" class="btn btn-info"><i class="fas fa-heart"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="container one-item-slide">
+          <div class="row flex-nowrap border">
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card" style="width: 100%; border-radius: 10px">
+                <div class="card-body">
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/5/tr:w-960,/1532597B-SS-MICKEY-1106_1.jpg?rnd=20200526195200"
+                    alt="Dress" class="card-img-top" />
+                  <h5 class="card-title">Stylo Bug</h5>
+                  <div class="price1">
+                    <h5>$ 9.00</h5>
+                  </div>
+                  <div class="icons">
+                    <a href="#" class="btn btn-danger"><i class="fas fa-trash-alt"></i>
+                    </a>
+                    <a href="#" class="btn btn-info"><i class="fas fa-heart"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="container one-item-slide">
+          <div class="row flex-nowrap border">
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card" style="width: 100%; border-radius: 10px">
+                <div class="card-body">
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/6/tr:w-960,/f664e2f900021_1.jpg?rnd=20200526195200"
+                    alt="Dress" class="card-img-top" />
+                  <h5 class="card-title">ANTHRILO</h5>
+                  <div class="price1">
+                    <h5>$ 5.00</h5>
+                  </div>
+                  <div class="icons">
+                    <a href="#" class="btn btn-danger"><i class="fas fa-trash-alt"></i>
+                    </a>
+                    <a href="#" class="btn btn-info"><i class="fas fa-heart"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#small-screen-slider" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+
+    <a class="carousel-control-next" href="#small-screen-slider" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </section>
+
+  <!-- Adding footer dyanamically -->
+
+  <div id="footer"></div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <script src="./JS/main.js"></script>
+</body>
+
+</html>

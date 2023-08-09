@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Header</title>
+  <!-- Including Bootstrap File From GetBootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <style>
+    /* Header Style */
+
+    /* Toggler Style Start */
+    .custom-toggler .navbar-toggler-icon {
+      background-color: red;
+      border: black;
+    }
+
+    .navbar-toggler-icon {
+      color: red;
+    }
+
+    .navbar-toggler {
+      .navbar-toggler-icon {
+        background-image: none;
+      }
+
+      .navbar-toggler-icon::before {
+        font-family: FontAwesome;
+        content: "|||";
+      }
+    }
+
+    /* Toggler Style End */
+    /* Customize the buttons */
+    .nav-link {
+      color: #007bff;
+      font-weight: 700;
+    }
+
+    .active {
+      color: #007bff !important;
+    }
+
+    .nav-link:hover {
+      color: #007bff
+    }
+
+    .as {
+      border-radius: 10px;
+      margin-right: 20px;
+      margin-top: 8px;
+    }
+
+    /* Add hover effects to the buttons */
+
+
+    /* Increase the size and color of the cart icon */
+    .fa-shopping-cart {
+      font-size: 24px;
+      color: blue;
+      margin-top: 8px;
+      margin-left: 8px;
+    }
+
+    @media (max-width:768px) {
+      .search-input{
+        margin-top: 10px;
+        display: block;
+        width: 30%;
+        height: calc(1.5em + 0.75rem + 2px);
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: 0.25rem;
+        transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+      }
+    }
+
+    @media (max-width: 991.98px) {
+      .custom-logo {
+        width: 15%;
+        height: 10%;
+      }
+
+      @media (min-width: 992px) {
+        .custom-logo {
+          width: 25%;
+          height: 25%;
+        }
+      }
+    }
+
+    @media (min-width: 768px) {
+      .search-btn {
+        margin-left: 105%;
+        margin-top: -32%;
+
+      }
+    }
+
+    @media only screen and (max-width: 767.50px) {
+      .search-btn {
+
+
+        margin-top: 10px;
+
+      }
+    }
+
+    /* Nav BackGround Color */
+
+    /* Header Style End */
+  </style>
+</head>
+
+<body>
+  <!-- Header Style -->
+
+  <header>
+    <!-- ====================  First Part Of the Header Start==============-->
+    <nav class="navbar navbar-expand-md first-nav">
+      <div class="container-fluid">
+        <div class="custom-logo">
+          <a href="practice.html">
+            <img src="https://img.freepik.com/free-vector/flat-design-bookstore-logo-template_23-2149325325.jpg?w=2000"
+              alt="logo" style="height: 90px; width: 130px" /></a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav justify-content-center flex-wrap w-100 nav-search">
+            <li class="nav-item">
+              <form role="search">
+                <input class="form-control search-input" type="search" placeholder="Search" aria-label="Search" />
+                <button class="btn btn-primary search-btn" type="submit">
+                  Search
+                </button>
+              </form>
+            </li>
+          </ul>
+          <ul class="navbar-nav align-items-md-center ml-auto mb-lg-0 cart-n-loginbtn">
+            <li class="nav-item">
+              <a class=" active" aria-current="page" href="login.html">
+                <button class="btn btn-primary as">Login</button>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="" href="cart.html">
+                <i class="fa fa-shopping-cart"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- =========First Part Of Header Ends ===========-->
+
+  <!-- ===================Second part Of Header Start============= -->
+
+  <nav class="navbar navbar-expand  second-nav" id="nav-color" style="background-color: white;">
+    <div class="container-fluid">
+      <div class="collapse d-flex justify-content-between navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav justify-content-center flex-wrap w-100">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="practice.html">
+              Home
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="All product.html">
+              All Products
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="women.html" role="button" data-toggle="dropdown"
+              aria-expanded="false">
+              Women
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="women.html">
+                  All
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="dress.html">
+                  Dresses
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="pants.html">
+                  Pants
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="skirts.html">
+                  Skirts
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+              Men
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="men.html">
+                  All
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="hoodies.html">
+                  Hoodies
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="menpants.html">
+                  Pants
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="shirts.html">
+                  Shirts
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="kids.html">
+              Kids
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
